@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyu Fitness</title>
+</head>
+<link href="https://fonts.google.com/specimen/Alkatra?query=b">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    /*css reset*/
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(phjjjjjjj.jpg)
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+       /* border: 2px solid royalblue;*/
+    }
+
+    .left img {
+        width: 75px;
+    }
+
+    .left div {
+        line-height: 30px;
+        font-size: 15px;
+        text-align: center;
+    
+
+    }
+
+    .mid {
+        display: block;
+        width: 44%;
+        margin: 12px auto;
+       /* border: 2px solid yellow;*/
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+       /* border: 2px solid red;*/
+
+    }
+
+    .btn {
+        font-family: 'specimen', cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 3px 4px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(26, 106, 106);
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 8px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: yellow;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 65px;
+        width: 33%;
+        display: block;
+        border-radius: 28px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 8px auto;
+        font-size: 20px;
+        border-radius: 8px;
+
+    }
+    .container h2{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 300px;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="logo 2.webp" alt="" </div>
+            <div> Piyu Fitness</div>
+            </ul>
+
+        </div>
+        <!--mid box for navigation-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+        </div>
+        <!--right box for buttons-->
+
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the best gym of delhi now</h2>
+        <form action="noaction.php">
+            
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+              <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
